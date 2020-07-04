@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minimal Blog</title>
+
+        {{!-- CSS STYLE --}}
+
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div>
+                    <h1>Living the simple life</h1>
+                    <p>A blog exploring minimalism in life</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT ME</a></li>
+                        <li><a href="#">RECENT POSTS</a></li>
+                    </ul>
+                </nav>
+            </div>{{!-- <<<--- container --}}
+        </header>
+        
+        {{{body}}}
+
+        {{!-- this will be partial 1 --}}
+        <section>
+            <div>
+                <img src="./images/about-me.jpg" alt="Photo of a smiling guy">
+                <p>I find life better, and I'm happier, when things are nice and simple</p>
+            </div>
+        </section>
+        {{!-- ------ this ------ --}}
+
+        {{!-- this will be partial 2--}}
+        <section>
+            <div>
+                <h3>RECENT POSTS</h3>
+                <div>
+                    <img src="./images/food.jpg" alt="Japanese food">
+                    <h4>Keeping cooking simple</h4>
+                    <hr>
+                </div>
+                <div>
+                    <img src="./images/work.jpg" alt="Working space at home">
+                    <h4>Simplicity and work</h4>
+                    <hr>
+                </div>
+                <div>
+                    <img src="./images/deco.jpg" alt="Plant in table">
+                    <h4>Simple decorations</h4>
+                </div>
+            </div>
+        </section>
+        {{!-- ------ this ------ --}}
+
+        <footer>
+            <div>
+                <p>Living the Simple Life</p>
+                <p>Copyright 2019</p>
+            </div>
+        </footer>
+    </body>
+</html>
