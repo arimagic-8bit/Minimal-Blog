@@ -1,0 +1,101 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+/* font-family: 'Lora', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS CUSTOM */
+
+/* Typhography */
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    letter-spacing: 3.6px;
+    color: #707070;
+}
+
+h1{
+    font-family: 'Lora', serif;
+    color: #143774;
+    font-size: 2rem;
+}
+
+nav a{
+    color: #717171;
+    text-decoration: none;
+}
+
+.subtitle{
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    color: #1792D2;
+    font-size: 13px;
+}
+
+/* Layout */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+    width: 100%;
+}
+
+.logo-cont{
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
