@@ -15,8 +15,10 @@
         <header>
             <div class="container">
                 <div class="logo-cont">
-                    <h1>Living the simple life</h1>
-                    <p class="subtitle">A blog exploring minimalism in life</p>
+                    <div class="logo">
+                        <h1>Living the simple life</h1>
+                        <p class="subtitle">A blog exploring minimalism in life</p>
+                    </div>
                 
                     <nav>
                         <ul>
@@ -32,50 +34,55 @@
         <div class="body-cont">
              {{{body}}}
 
-            {{!-- this will be partial 1 --}}
-            <div class="about-section">
-                <div class="about-cont">
-                    <div class="content">
-                        <div class="img-cont">
-                            <img class="large" src="./images/about-me.jpg" alt="Photo of a smiling guy">
-                        </div>
-                        <p class="about-text">I find life better, and I'm happier, when things are nice and simple</p>
-                    </div>
-                </div>
-            </div>
-            {{!-- ------ this ------ --}}
-
-            {{!-- this will be partial 2--}}
-            <section>
+             <div class="little-sections">
+                 {{!-- this will be partial 1 --}}
                 <div class="about-section">
-                    <div class="about-cont"> 
+                    <div class="about-cont">
                         <div class="content">
-                            <h3>RECENT POSTS</h3>
-                            <div>
-                                <div class="img-cont">
-                                    <img class="large" src="./images/food.jpg" alt="Japanese food">
-                                </div>
-                                <h4>Keeping cooking simple</h4>
-                                <hr>
+                            <h3>ABOUT ME</h3>
+                            <div class="img-cont">
+                                <img class="large" src="./images/about-me.jpg" alt="Photo of a smiling guy">
                             </div>
-                            <div>
-                                <div class="img-cont">
-                                    <img class="large" src="./images/work.jpg" alt="Working space at home">
-                                </div>
-                                <h4>Simplicity and work</h4>
-                                <hr>
-                            </div>
-                            <div>
-                                <div class="img-cont">
-                                    <img class="large" src="./images/deco.jpg" alt="Plant in table">
-                                </div>
-                                <h4>Simple decorations</h4>
-                            </div>
+                            <p class="about-text">I find life better, and I'm happier, when things are nice and simple</p>
                         </div>
                     </div>
                 </div>
-            </section>
-            {{!-- ------ this ------ --}}
+                {{!-- ------ this ------ --}}
+
+                {{!-- this will be partial 2--}}
+                <section>
+                    <div class="about-section">
+                        <div class="about-cont"> 
+                            <div class="content">
+                                <h3>RECENT POSTS</h3>
+                                <div>
+                                    <div class="img-cont">
+                                        <img class="large" src="./images/food.jpg" alt="Japanese food">
+                                    </div>
+                                    <h4>Keeping cooking simple</h4>
+                                    <hr>
+                                </div>
+                                <div>
+                                    <div class="img-cont">
+                                        <img class="large" src="./images/work.jpg" alt="Working space at home">
+                                    </div>
+                                    <h4>Simplicity and work</h4>
+                                    <hr>
+                                </div>
+                                <div>
+                                    <div class="img-cont">
+                                        <img class="large" src="./images/deco.jpg" alt="Plant in table">
+                                    </div>
+                                    <h4>Simple decorations</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {{!-- ------ this ------ --}}
+
+             </div>
+
         </div>
        
         <footer>

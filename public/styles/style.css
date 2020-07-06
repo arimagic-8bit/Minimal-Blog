@@ -130,6 +130,12 @@ nav a:active{
     margin: 1rem 0 0.5rem 0;
 }
 
+@media (min-width:800px){
+    .right{
+        text-align: left;
+    }
+}
+
 .post{
     text-align: justify;
     letter-spacing: 1px;
@@ -182,12 +188,42 @@ footer{
     text-align: center;
 }
 
+@media (min-width:800px){
+    .logo-cont{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4rem 5rem;
+    }
+}
+
 .subtitle{
     margin-bottom: 2rem;
 }
 
+@media (min-width:800px){
+    .subtitle{
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width:800px){
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 li{
     margin-bottom: 1.5rem;
+}
+
+@media (min-width:800px){
+    li{
+        margin-bottom: 0;
+        margin-right: 1rem;
+    }
 }
 
 .body-cont {
@@ -195,8 +231,28 @@ li{
     margin-top: 2rem;
 }
 
+@media (min-width:800px){
+    .body-cont{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 5rem;
+
+    }
+}
+
 .normal{
     width: 100%;
+}
+
+@media (min-width:800px){
+    .normal-web{
+        width: 12rem;
+        height: 15rem;
+    }
+    .n-web{
+        object-fit: cover;
+        height: 100%;
+    }
 }
 
 .about{
@@ -209,15 +265,48 @@ li{
     object-fit: cover;
 }
 
+@media (min-width:800px){
+    .large-web{
+        height: 18rem;
+    }
+    .l-web{
+        height: 100%;
+        object-fit: cover;
+        object-position: 0 90%;
+        max-width: 600px;
+    }
+}
+
 hr{
     margin-bottom: 2rem;
 
 }
 
+@media (min-width:800px){
+    .index-section{
+        padding: 0 7rem;
+    }
+    .section-post{
+        display: flex; 
+        justify-content: space-between;
+        margin-bottom: 4rem;
+    }
+    .post-sect{
+        margin-left: 1.2rem;
+    }
+}
+
+
 .about-section{
     background-color: #f1eeee;
     width: 100%;
     margin-bottom: 3rem;
+}
+
+@media (min-width:800px){
+    .about-section{
+        width: 15rem;
+    }
 }
 
 .about-cont{
