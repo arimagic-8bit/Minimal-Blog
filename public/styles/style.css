@@ -57,20 +57,39 @@ table {
 
 body{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    letter-spacing: 3.6px;
+    font-size: 15px;
+    background-color: #FFFFFF;
     color: #707070;
 }
 
 h1{
     font-family: 'Lora', serif;
+    font-weight: 400;
     color: #143774;
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: #143774;
+    margin-bottom: 1.2rem;
+    letter-spacing: 2px;
 }
 
 nav a{
     color: #717171;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover, nav a:focus{
+    color: #1792D2;
+}
+
+nav a:active{
+    border-bottom: solid 1px;
 }
 
 .subtitle{
@@ -78,24 +97,76 @@ nav a{
     font-weight: bold;
     letter-spacing: 2.4px;
     color: #1792D2;
-    font-size: 13px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.comment{
+    font-size: 12px;
+    margin: 1.5rem 0;
+}
+
+.right{
+    text-align: right;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.post{
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.post span{
+    font-weight: bold;
+}
+
+.post a{
+    color: #1792D2;
+}
+
+.continue {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1792D2;
+    margin-bottom: 1.5rem;
 }
 
 /* Layout */
 
 .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #F8F8F8;
     width: 100%;
 }
 
 .logo-cont{
-    margin: 0 auto;
+    padding: 2.5rem 3rem;
+    text-align: center;
+}
+
+.subtitle{
+    margin-bottom: 2rem;
+}
+
+li{
+    margin-bottom: 1.5rem;
+}
+
+.body-cont {
+    padding: 2rem 1rem;
+    margin-top: 2rem;
 }
 
 img{
     width: 100%;
+}
+
+hr{
+    margin-bottom: 2rem;
+}
+
+.about-section{
+    background-color: #e0d9d9;
 }
