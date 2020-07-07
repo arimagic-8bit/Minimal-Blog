@@ -259,6 +259,19 @@ li{
     margin-bottom: 2rem;
 }
 
+@media (min-width:800px){
+    .about-web{
+        height: 15rem;
+        margin-bottom: 2rem;
+
+    }
+    .a-web{
+        object-fit: cover;
+        height: 100%;
+        margin-bottom: 0;
+        max-width: 850px;
+    }
+}
 .large{
     width: 100%;
     height: 100%;
@@ -283,8 +296,8 @@ hr{
 }
 
 @media (min-width:800px){
-    .index-section{
-        padding: 0 7rem;
+    .index-section, .about-page, .posts-section{
+        margin-right: 2rem;
     }
     .section-post{
         display: flex; 
