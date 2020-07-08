@@ -1,6 +1,6 @@
 # MINIMAL BLOG
 
-![Screenshot from 2020-07-08 19-59-47](/home/ariadna/Pictures/Screenshot from 2020-07-08 19-59-47.png)
+![alt text](https://res.cloudinary.com/dywatr6gy/image/upload/v1594232053/Screenshot_from_2020-07-08_19-59-47_pbif58.png "Web Page Index")
 
 ## Description
 
