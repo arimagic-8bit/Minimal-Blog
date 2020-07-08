@@ -1,6 +1,6 @@
 # MINIMAL BLOG
 
-![](/home/ariadna/Pictures/Screenshot from 2020-07-08 19-59-47.png)
+![Screenshot from 2020-07-08 19-59-47](/home/ariadna/Pictures/Screenshot from 2020-07-08 19-59-47.png)
 
 ## Description
 
